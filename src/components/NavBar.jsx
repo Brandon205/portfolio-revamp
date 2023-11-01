@@ -8,8 +8,8 @@ const names = [
 ]
 
 export default function NavBar() {
-    const [line1, setLine1] = useState('Brandon');
-    const [line2, setLine2] = useState('Black');
+    const [line1, setLine1] = useState(names[0].line1);
+    const [line2, setLine2] = useState(names[0].line2);
 
     function changeName() {
         let index = Math.floor(Math.random() * 4)
