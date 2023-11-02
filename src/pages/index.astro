@@ -1,18 +1,18 @@
 ---
 import Layout from '../layouts/Layout.astro'
-import NavBar from '../components/NavBar.jsx'
 import Featured from '../components/Featured.astro'
 import { Image } from 'astro:assets'
 import mountainShot from '../assets/MountainShot.jpg'
+import AboutSection from '../components/AboutSection.astro'
 ---
 
 <Layout title="Brandon Black">
-	<NavBar client:load />
 	<header class="flex h-[90vh] items-center justify-between bg-secondary p-8">
 		<div>
 			<h1 class="text-6xl">Hi! I'm Brandon a full stack developer based in Seattle.</h1>
 			<p class="w-1/2">
-				Working on functionality, and TODO: change this up to something that still takes up 2 lines
+				Working on functionality, and change TODO: change this up to something that still takes up 2
+				linesasdfasdfazsdf
 			</p>
 		</div>
 		<Image
@@ -23,7 +23,7 @@ import mountainShot from '../assets/MountainShot.jpg'
 	</header>
 	<main class="bg-bkg">
 		<Featured />
+
+		<AboutSection />
 	</main>
 </Layout>
-
-<style></style>
