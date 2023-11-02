@@ -42,6 +42,7 @@ const navMotion = {
           key={id}
           variants={isMobile ? itemMotion : itemMotionDesktop}
           href={href}
+          className='text-xl'
         >
           {name}
         </motion.a>
@@ -70,8 +71,8 @@ export default function NavBar() {
     return (
         <nav className='bg-primary flex justify-between px-4 relative items-center'>
             <div onMouseEnter={() => changeName()}>
-                <p>{line1}</p>
-                <p>{line2}</p>
+                <p className='text-3xl'>{line1}</p>
+                <p className='text-3xl'>{line2}</p>
             </div>
 
             {toggled && (

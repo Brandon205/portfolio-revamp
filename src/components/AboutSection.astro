@@ -1,11 +1,11 @@
 ---
 import { Image } from 'astro:assets'
-import mountainShot from '../assets/MountainShot.jpg'
+import headshot from '../assets/headshot.jpeg'
 import { Icon } from 'astro-icon'
 ---
 
 <section class="md:flex md: items-center gap-12 p-8">
-	<Image src={mountainShot} alt="headshot of me" class="w-1/2 rounded-full h-auto object-cover" />
+	<Image src={headshot} alt="headshot of me" class="w-1/2 rounded-full object-cover" />
 	<div>
 		<h3 class="text-6xl pb-4">About Me</h3>
 		<p class="text-xl pb-12">
@@ -13,7 +13,7 @@ import { Icon } from 'astro-icon'
 			probably or something like that. Now I'm stalling to get the filler text up to 5 lines, this
 			probably isn't even close though...
 		</p>
-		<div class="flex">
+		<div class="flex gap-4">
 			<Icon name="vscode-icons:file-type-astro" class="w-16" />
 			<Icon name="logos:nextjs-icon" class="w-16" />
 			<Icon name="logos:react" class="w-16" />
