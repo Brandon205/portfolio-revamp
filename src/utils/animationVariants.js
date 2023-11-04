@@ -127,3 +127,74 @@ export const sassVariant = {
         }
     }
 }
+
+export const excelVariant = {
+    default: { opacity: 0, y: -50 },
+    hover: {
+        opacity: 1,
+        y: 0,
+        transition: {
+            duration: 1
+        }
+    }
+}
+export const expressVariant = {
+    default: { opacity: 0, y: -50 },
+    hover: {
+        opacity: 1,
+        y: 0,
+        transition: {
+            duration: 1
+        }
+    }
+}
+export const ejsVariant = {
+    default: { opacity: 0, y: -50 },
+    hover: {
+        opacity: 1,
+        y: 0,
+        transition: {
+            duration: 1
+        }
+    }
+}
+export const nodejsVariant = {
+    default: { opacity: 0, y: -50 },
+    hover: {
+        opacity: 1,
+        y: 0,
+        transition: {
+            duration: 1
+        }
+    }
+}
+export const reactNativeVariant = {
+    default: { opacity: 0, y: -50 },
+    hover: {
+        opacity: 1,
+        y: 0,
+        transition: {
+            duration: 1
+        }
+    }
+}
+export const volumeUpVariant = {
+    default: { opacity: 0, y: -50 },
+    hover: {
+        opacity: 1,
+        y: 0,
+        transition: {
+            duration: 1
+        }
+    }
+}
+export const vbVariant = {
+    default: { opacity: 0, y: -50 },
+    hover: {
+        opacity: 1,
+        y: 0,
+        transition: {
+            duration: 1
+        }
+    }
+}
