@@ -11,9 +11,8 @@ export const mainVariant = {
 }
 
 export const secondaryVariant = {
-    default: { y: 0 },
+    default: { y: -225 },
     hover: {
-        y: -225,
         transition: {
             when: 'beforeChildren',
             staggerChildren: 0.2
@@ -21,24 +20,14 @@ export const secondaryVariant = {
     },
 }
 
-export const thirdVariant = {
-    default: {},
-    hover: {
-        transition: {
-            when: 'beforeChildren',
-            staggerChildren: 0.2
-        }
-    }
-}
-
 export const titleVariant = {
-    default: { y: 0 },
-    hover: { y: 0 }
+    default: { y: 225 },
+    hover: { y: 15 }
 }
 
 export const imgVariant = {
     default: { filter: 'blur(0) brightness(100%)' },
-    hover: { filter: 'blur(4px)brightness(50%)' },
+    hover: { filter: 'blur(4px)brightness(40%)' },
 }
 
 export const buttonVariant = {
@@ -52,7 +41,7 @@ export const iconVariant = {
         opacity: 1,
         transition: {
             when: 'beforeChildren',
-            staggerChildren: 0.5
+            staggerChildren: 0.1
         }
     }
 }
@@ -138,6 +127,7 @@ export const excelVariant = {
         }
     }
 }
+
 export const expressVariant = {
     default: { opacity: 0, y: -50 },
     hover: {
@@ -148,6 +138,7 @@ export const expressVariant = {
         }
     }
 }
+
 export const ejsVariant = {
     default: { opacity: 0, y: -50 },
     hover: {
@@ -158,6 +149,7 @@ export const ejsVariant = {
         }
     }
 }
+
 export const nodejsVariant = {
     default: { opacity: 0, y: -50 },
     hover: {
@@ -168,6 +160,7 @@ export const nodejsVariant = {
         }
     }
 }
+
 export const reactNativeVariant = {
     default: { opacity: 0, y: -50 },
     hover: {
@@ -178,6 +171,7 @@ export const reactNativeVariant = {
         }
     }
 }
+
 export const volumeUpVariant = {
     default: { opacity: 0, y: -50 },
     hover: {
@@ -188,6 +182,7 @@ export const volumeUpVariant = {
         }
     }
 }
+
 export const vbVariant = {
     default: { opacity: 0, y: -50 },
     hover: {
@@ -197,4 +192,9 @@ export const vbVariant = {
             duration: 1
         }
     }
+}
+
+export const atagVariant = {
+    default: {},
+    hover: {}
 }
