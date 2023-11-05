@@ -1,25 +1,26 @@
 ---
 import { Image } from 'astro:assets'
 import headshot from '../assets/headshot.jpeg'
-import { Icon } from 'astro-icon'
+import { Icon } from 'astro-icon';
 ---
 
-<section class="md:flex md: items-center gap-12 p-8">
+<section class="md:flex items-center gap-12 p-8 mt-20">
 	<Image src={headshot} alt="headshot of me" class="w-1/2 rounded-full object-cover" />
-	<div>
+	<div class="flex flex-col gap-4">
 		<h3 class="text-6xl pb-4">About Me</h3>
 		<p class="text-xl pb-12">
 			short description of me goes here making sure that it doesn't go longer than like 5 lines
 			probably or something like that. Now I'm stalling to get the filler text up to 5 lines, this
 			probably isn't even close though...
 		</p>
-		<div class="flex gap-4">
-			<Icon name="vscode-icons:file-type-astro" class="w-16" />
-			<Icon name="logos:nextjs-icon" class="w-16" />
-			<Icon name="logos:react" class="w-16" />
-			<Icon name="tabler:brand-react-native" class="w-16" />
-			<Icon name="logos:nodejs" class="w-16" />
-			<Icon name="logos:java" class="w-16" />
+		<div class="flex gap-8 xl:gap-12">
+			<Icon name="astro" class="w-16" />
+			<Icon name="nextjs" class="w-16" />
+			<Icon name="react" class="w-16" />
+			<Icon name="sdk-react-native" class="w-16" />
+			<Icon name="nodejs" class="w-16" />
+			<Icon name="java" class="w-16" />
 		</div>
+		<a href="/about" class="py-2 px-4 bg-primary text-white text-xl mt-12 mr-auto rounded-lg">More About Me</a>
 	</div>
 </section>

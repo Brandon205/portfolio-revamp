@@ -17,8 +17,8 @@ export default function Featured() {
 	}
 
 	return (
-		<section className="flex flex-col w-full items-center">
-			<div className='grid items-center grid-cols-1 lg:grid-cols-2 gap-4'>
+		<section className="flex flex-col w-full items-center gap-12">
+			<div className='grid items-center grid-cols-1 lg:grid-cols-2 gap-x-8 gap-y-20'>
 				<motion.div variants={mainVariant} initial="default" whileHover='hover' className="relative w-[450px]">
 					<motion.img
 						src={dirtless}
@@ -27,7 +27,7 @@ export default function Featured() {
 						variants={imgVariant}
 					/>
 
-					<motion.div variants={secondaryVariant} className="flex flex-col items-center gap-8">
+					<motion.div variants={secondaryVariant} className="absolute w-full flex flex-col items-center gap-8">
 						<motion.strong className="text-3xl drop-shadow-xl" variants={titleVariant}>Dirt-Less Detailing</motion.strong>
 						<div className="flex gap-4">
 							<motion.a variants={buttonVariant} className="no-underline text-primary text-xl bg-primary text-white px-4 py-2 rounded-md" href="/project/dirtless-detailing">LEARN MORE</motion.a>
@@ -121,7 +121,7 @@ export default function Featured() {
 						variants={imgVariant}
 					/>
 
-					<motion.div variants={secondaryVariant} className="flex flex-col items-center gap-8">
+					<motion.div variants={secondaryVariant} className="absolute w-full flex flex-col items-center gap-8">
 						<motion.strong className="text-3xl drop-shadow-xl" variants={titleVariant}>Prime Bid Excel</motion.strong>
 						<div className="flex gap-4">
 							<motion.a variants={buttonVariant} className="no-underline text-primary text-xl bg-primary text-white px-4 py-2 rounded-md" href="/project/dirtless-detailing">LEARN MORE</motion.a>
@@ -167,7 +167,7 @@ export default function Featured() {
 						variants={imgVariant}
 					/>
 
-					<motion.div variants={secondaryVariant} className="flex flex-col items-center gap-8">
+					<motion.div variants={secondaryVariant} className="absolute w-full flex flex-col items-center gap-8">
 						<motion.strong className="text-3xl drop-shadow-xl" variants={titleVariant}>Guitario</motion.strong>
 						<div className="flex gap-4">
 							<motion.a variants={buttonVariant} className="no-underline text-primary text-xl bg-primary text-white px-4 py-2 rounded-md" href="/project/guitario">LEARN MORE</motion.a>
@@ -197,7 +197,7 @@ export default function Featured() {
 						variants={imgVariant}
 					/>
 
-					<motion.div variants={secondaryVariant} className="flex flex-col items-center gap-8">
+					<motion.div variants={secondaryVariant} className="absolute w-full flex flex-col items-center gap-8">
 						<motion.strong className="text-3xl drop-shadow-xl" variants={titleVariant}>Potter Go</motion.strong>
 						<div className="flex gap-4">
 							<motion.a variants={buttonVariant} className="no-underline text-primary text-xl bg-primary text-white px-4 py-2 rounded-md" href="/project/potterGo">LEARN MORE</motion.a>
