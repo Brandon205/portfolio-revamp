@@ -7,7 +7,7 @@ export const mainVariant = {
             staggerChildren: 0.2
         }
     },
-    
+
 }
 
 export const secondaryVariant = {
@@ -60,7 +60,7 @@ export const nextVariantMain = {
 }
 
 export const nextVariant1 = {
-    default: {opacity: 0, x: -10},
+    default: { opacity: 0, x: -10 },
     hover: {
         opacity: 1,
         x: 0,
@@ -72,7 +72,7 @@ export const nextVariant1 = {
 }
 
 export const nextVariant2 = {
-    default: {opacity: 0, x: 10},
+    default: { opacity: 0, x: 10 },
     hover: {
         opacity: 1,
         x: 0,
@@ -197,4 +197,14 @@ export const vbVariant = {
 export const atagVariant = {
     default: {},
     hover: {}
+}
+
+export const aboutSectionVariant = {
+    default: {},
+    hover: {
+        transition: {
+            when: 'beforeChildren',
+            staggerChildren: 0.5
+        }
+    }
 }
