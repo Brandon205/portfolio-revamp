@@ -20,7 +20,7 @@ const links = {
     "sass": "https://sass-lang.com/",
     "typescript": "https://www.typescriptlang.org/",
     "vb": "https://learn.microsoft.com/en-us/office/vba/api/overview/excel",
-    "volume-up": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API",
+    "volumeUp": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API",
 }
 
 const titles = {
@@ -43,7 +43,7 @@ const titles = {
     "sass": "Syntactically Awesome Stylesheet",
     "typescript": "Typescript Programming Language",
     "vb": "Visual Basic for Applications",
-    "volume-up": "Web Audio API",
+    "volumeUp": "Web Audio API",
 }
 
 // <SvgIcon name="react" />

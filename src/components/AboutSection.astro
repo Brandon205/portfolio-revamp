@@ -2,7 +2,6 @@
 import { Image } from 'astro:assets'
 import headshot from '../assets/headshot.jpeg'
 import Frameworks from './Frameworks'
-import { Icon } from 'astro-icon'
 ---
 
 <section class="mt-20 items-center gap-12 p-8 md:flex">
@@ -15,14 +14,6 @@ import { Icon } from 'astro-icon'
 			probably isn't even close though...
 		</p>
 		<Frameworks fullList={true} client:load />
-		<!-- <div class="flex gap-8 xl:gap-12">
-			<Icon name="astro" class="w-16" />
-			<Icon name="nextjs" class="w-16" />
-			<Icon name="react" class="w-16" />
-			<Icon name="sdk-react-native" class="w-16" />
-			<Icon name="nodejs" class="w-16" />
-			<Icon name="java" class="w-16" />
-		</div> -->
 		<a href="/about" class="mr-auto mt-12 rounded-lg bg-primary px-4 py-2 text-xl text-white"
 			>More About Me</a
 		>
