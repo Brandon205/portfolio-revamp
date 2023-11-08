@@ -128,6 +128,28 @@ export const excelVariant = {
     }
 }
 
+export const astroVariant = {
+    default: { opacity: 0, y: -50 },
+    hover: {
+        opacity: 1,
+        y: 0,
+        transition: {
+            duration: 1
+        }
+    }
+}
+
+export const javascriptVariant = {
+    default: { opacity: 0, y: -50 },
+    hover: {
+        opacity: 1,
+        y: 0,
+        transition: {
+            duration: 1
+        }
+    }
+}
+
 export const expressVariant = {
     default: { opacity: 0, y: -50 },
     hover: {
@@ -184,6 +206,86 @@ export const volumeUpVariant = {
 }
 
 export const vbVariant = {
+    default: { opacity: 0, y: -50 },
+    hover: {
+        opacity: 1,
+        y: 0,
+        transition: {
+            duration: 1
+        }
+    }
+}
+export const css3 = {
+    default: { opacity: 0, y: -50 },
+    hover: {
+        opacity: 1,
+        y: 0,
+        transition: {
+            duration: 1
+        }
+    }
+}
+export const firebase = {
+    default: { opacity: 0, y: -50 },
+    hover: {
+        opacity: 1,
+        y: 0,
+        transition: {
+            duration: 1
+        }
+    }
+}
+export const graphql = {
+    default: { opacity: 0, y: -50 },
+    hover: {
+        opacity: 1,
+        y: 0,
+        transition: {
+            duration: 1
+        }
+    }
+}
+export const html5 = {
+    default: { opacity: 0, y: -50 },
+    hover: {
+        opacity: 1,
+        y: 0,
+        transition: {
+            duration: 1
+        }
+    }
+}
+export const java = {
+    default: { opacity: 0, y: -50 },
+    hover: {
+        opacity: 1,
+        y: 0,
+        transition: {
+            duration: 1
+        }
+    }
+}
+export const mongodb = {
+    default: { opacity: 0, y: -50 },
+    hover: {
+        opacity: 1,
+        y: 0,
+        transition: {
+            duration: 1
+        }
+    }
+}
+export const python = {
+    default: { opacity: 0, y: -50 },
+    hover: {
+        opacity: 1,
+        y: 0,
+        transition: {
+            duration: 1
+        }
+    }
+}
+export const typescript = {
     default: { opacity: 0, y: -50 },
     hover: {
         opacity: 1,
