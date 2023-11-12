@@ -73,7 +73,7 @@ export default function Featured() {
 						<motion.strong className="text-3xl drop-shadow-xl" variants={titleVariant}>Guitario</motion.strong>
 						<div className="flex gap-4">
 							<motion.a variants={buttonVariant} className="no-underline text-primary text-xl bg-primary text-white px-4 py-2 rounded-md" href="/project/guitario">LEARN MORE</motion.a>
-							<motion.a variants={buttonVariant} className="no-underline text-primary text-xl border-2 border-primary text-white px-4 py-2 rounded-md" href="https://www.dirtlessdetailing.com" rel="noopener" target="_blank">VISIT SITE</motion.a>
+							<motion.a variants={buttonVariant} className="no-underline text-primary text-xl border-2 border-primary text-white px-4 py-2 rounded-md" href="https://brandon205.github.io/guitario/" rel="noopener" target="_blank">VISIT SITE</motion.a>
 						</div>
 						<motion.div variants={iconVariant} className="flex gap-4">
 							<SvgIcon name="reactnative" />
